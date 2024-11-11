@@ -13,3 +13,5 @@
 - My gamer tag across all platforms is Shreddid
 
 - My goal is to complete the TripleTen Bootcamp by March and advance into a Tech Career!
+
+- I currently am efficient in HTML/CSS, Git, GitHub, VSCode, Figma, and JavaScript.
