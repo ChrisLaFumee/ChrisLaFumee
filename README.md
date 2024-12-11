@@ -14,4 +14,4 @@
 
 - My goal is to complete the TripleTen Bootcamp by March and advance into a Tech Career!
 
-- I currently am efficient in HTML/CSS, JavaScript, Git, GitHub, VSCode, and  Figma.
+- Currently efficient in HTML/CSS, JavaScript, Git, GitHub, VSCode, and  Figma.
