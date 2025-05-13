@@ -10,8 +10,6 @@
 
 - My Fitness Business is Limitless Progressions
 
-- My gamer tag across all platforms is Shreddid
-
-- My goal is to complete the TripleTen Bootcamp by March and advance into a Tech Career!
+- My goal is to complete the TripleTen Bootcamp in 2025 and advance into a Tech Career!
 
 - Currently efficient in HTML/CSS, JavaScript, Git, GitHub, VSCode, and  Figma.
