@@ -43,7 +43,7 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
 ### 🔗 Connect With Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/christopherlafumee">
+  <a href="[https://www.linkedin.com/in/christopherlafumee](https://www.linkedin.com/in/christopher-lafumee-488685327/)">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://www.youtube.com/@limitlessprogressions">
