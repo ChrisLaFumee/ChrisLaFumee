@@ -62,7 +62,7 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
 ### 📌 Featured Projects
 
 - 🎯 [**The Limitless Hub**](https://github.com/ChrisLaFumee/limitless-hub): Full-stack coaching & digital product platform for health and fitness pros  
-- 🧰 [**Chris Cross Coding Portfolio**](https://github.com/ChrisLaFumee/your-portfolio-repo): My personal portfolio, resume, and project showcase
+- 🧰 [**Chris Cross Coding Portfolio**](https://github.com/ChrisLaFumee/My-Portfolio): My personal portfolio, resume, and project showcase
 
 ---
 
