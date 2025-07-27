@@ -34,8 +34,8 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=radical" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ChrisLaFumee&show_icons=true&theme=radical" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChrisLaFumee&theme=radical" width="48%" />
 </p>
 
 ---
@@ -61,8 +61,8 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
 
 ### 📌 Featured Projects
 
-- 🎯 [**The Limitless Hub**](https://github.com/YOUR_USERNAME/limitless-hub): Full-stack coaching & digital product platform for health and fitness pros  
-- 🧰 [**Chris Cross Coding Portfolio**](https://github.com/YOUR_USERNAME/your-portfolio-repo): My personal portfolio, resume, and project showcase
+- 🎯 [**The Limitless Hub**](https://github.com/ChrisLaFumee/limitless-hub): Full-stack coaching & digital product platform for health and fitness pros  
+- 🧰 [**Chris Cross Coding Portfolio**](https://github.com/ChrisLaFumee/your-portfolio-repo): My personal portfolio, resume, and project showcase
 
 ---
 
