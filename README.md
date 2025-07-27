@@ -10,7 +10,7 @@ I’m a software engineer with over a decade of experience in health, fitness, a
 I specialize in crafting sleek, responsive web apps using modern JavaScript stacks and design-first principles. My work blends clean code, engaging UI, and the kind of discipline forged through years of coaching others.
 
 - 🧠 Currently mastering **backend engineering** (Node.js, Express, MongoDB)
-- 🛠️ Building: [**The Limitless Hub**](https://github.com/YOUR_USERNAME/limitless-hub) — my flagship fitness + coaching platform
+- 🛠️ Building: [**The Limitless Hub**](https://github.com/ChrisLaFumee/limitless-hub) — my flagship fitness + coaching platform
 - 💼 Actively seeking **remote front-end/full-stack roles**
 - 🎯 Next goals: Master TypeScript + dive deeper into DevOps & deployment strategies
 
