@@ -1,18 +1,38 @@
 name: Snapshot streak card
+
 on:
   schedule:
-    - cron: "19 5 * * *"   # daily
+    - cron: "19 5 * * *"   # once daily
   workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   snapshot:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # Try the modern endpoint first; fall back to the old one if needed
       - name: Fetch streak card
         run: |
-          curl -sL "https://github-readme-streak-stats.herokuapp.com?user=ChrisLaFumee&theme=radical&hide_border=true" -o streak.svg
-      - name: Commit
+          set -euo pipefail
+          UA="Mozilla/5.0 (GitHub Actions)"
+          URL_PRIMARY="https://streak-stats.demolab.com?user=ChrisLaFumee&theme=radical&hide_border=true"
+          URL_FALLBACK="https://github-readme-streak-stats.herokuapp.com?user=ChrisLaFumee&theme=radical&hide_border=true"
+
+          echo "Fetching streak card (primary)…"
+          if ! curl -fsSL -A "$UA" "$URL_PRIMARY" -o streak.svg; then
+            echo "Primary failed, trying fallback…"
+            curl -fsSL -A "$UA" "$URL_FALLBACK" -o streak.svg
+          fi
+
+          # sanity check: ensure we actually got an SVG
+          file streak.svg
+          grep -qi "<svg" streak.svg
+
+      - name: Commit updated streak.svg
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
