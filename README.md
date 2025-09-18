@@ -39,7 +39,7 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
 
 <p align="center">
   <img src="./streak.svg" width="60%" />
-</p> 
+</p>
 
 ---
 
