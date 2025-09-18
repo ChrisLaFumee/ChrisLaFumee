@@ -34,11 +34,11 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
 ### 📈 GitHub Stats (Auto-updated)
 
 <p align="center">
-  <img src="./github-metrics.svg" width="96%" />
+  <img src="./streak.svg" width="60%" />
 </p>
 
 <p align="center">
-  <img src="./streak.svg" width="60%" />
+  <img src="./github-metrics.svg" width="96%" />
 </p>
 
 ---
