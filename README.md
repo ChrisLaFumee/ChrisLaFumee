@@ -37,16 +37,9 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
   <img src="./github-metrics.svg" width="96%" />
 </p>
 
-<details>
-  <summary><b>100 Days of Commits — Checklist</b></summary>
-
-- [ ] Day 001
-- [ ] Day 002
-- [ ] Day 003
-- ...
-- [ ] Day 100
-
-</details>
+<p align="center">
+  <img src="./streak.svg" width="60%" />
+</p>
 
 ---
 
