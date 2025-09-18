@@ -1,0 +1,21 @@
+name: Snapshot streak card
+on:
+  schedule:
+    - cron: "19 5 * * *"   # daily
+  workflow_dispatch: {}
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch streak card
+        run: |
+          curl -sL "https://github-readme-streak-stats.herokuapp.com?user=ChrisLaFumee&theme=radical&hide_border=true" -o streak.svg
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add streak.svg
+          git commit -m "Update streak snapshot" || echo "No changes"
+          git push
