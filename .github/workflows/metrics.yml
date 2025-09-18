@@ -1,7 +1,8 @@
 name: Generate profile metrics
+
 on:
   schedule:
-    - cron: "17 5,17 * * *"   # updates ~2x/day
+    - cron: "17 5,17 * * *"   # runs ~2x/day (05:17 & 17:17 UTC)
   workflow_dispatch: {}
   push:
     branches: [ main ]
@@ -15,7 +16,15 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
+          # Auth to read your profile data
           token: ${{ secrets.METRICS_TOKEN }}
+
+          # Auth to commit the generated SVG back to your repo
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          filename: github-metrics.svg
+
+          # Basic config
           user: ChrisLaFumee
           template: classic
           config_timezone: America/New_York
@@ -23,19 +32,18 @@ jobs:
           # Core sections
           base: header, activity, repositories, metadata
 
-          # Streak + calendar (100-Day challenge friendly)
+          # 100-Day challenge visibility (calendar + habits)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_streak: yes
-
-          # Coding habits
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-          # Languages & achievements
+          # Tech profile
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_details: bytes-size, percentage
+
+          # Credibility
           plugin_achievements: yes
           plugin_achievements_display: compact
