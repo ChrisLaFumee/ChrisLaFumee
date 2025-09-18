@@ -2,7 +2,7 @@ name: Snapshot streak card
 
 on:
   schedule:
-    - cron: "19 5 * * *"   # once daily
+    - cron: "19 5 * * *"   # daily at 05:19 UTC
   workflow_dispatch: {}
 
 permissions:
@@ -14,25 +14,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Try the modern endpoint first; fall back to the old one if needed
-      - name: Fetch streak card
+      - name: Fetch streak card (retry + fallback + validate)
+        id: fetch
         run: |
           set -euo pipefail
           UA="Mozilla/5.0 (GitHub Actions)"
-          URL_PRIMARY="https://streak-stats.demolab.com?user=ChrisLaFumee&theme=radical&hide_border=true"
-          URL_FALLBACK="https://github-readme-streak-stats.herokuapp.com?user=ChrisLaFumee&theme=radical&hide_border=true"
+          PRIMARY="https://streak-stats.demolab.com?user=ChrisLaFumee&theme=radical&hide_border=true"
+          FALLBACK="https://github-readme-streak-stats.herokuapp.com?user=ChrisLaFumee&theme=radical&hide_border=true"
 
-          echo "Fetching streak card (primary)…"
-          if ! curl -fsSL -A "$UA" "$URL_PRIMARY" -o streak.svg; then
+          echo "Trying primary endpoint…"
+          if ! curl -fSL --retry 5 --retry-delay 5 -A "$UA" "$PRIMARY" -o streak.svg; then
             echo "Primary failed, trying fallback…"
-            curl -fsSL -A "$UA" "$URL_FALLBACK" -o streak.svg
+            curl -fSL --retry 5 --retry-delay 5 -A "$UA" "$FALLBACK" -o streak.svg
           fi
 
-          # sanity check: ensure we actually got an SVG
+          echo "Validating SVG…"
           file streak.svg
-          grep -qi "<svg" streak.svg
+          head -n 1 streak.svg | grep -qi "<" || (echo "Downloaded file doesn't look like SVG" && exit 1)
+          grep -qi "<svg" streak.svg || (echo "No <svg> tag found" && head -n 50 streak.svg && exit 1)
 
-      - name: Commit updated streak.svg
+      - name: Commit updated streak.svg to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
