@@ -66,6 +66,6 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
 
 ---
 
-> 💬 “Every day I do the work, I’m becoming the man I needed as a kid.”
+> 💬 “No Human is Limited - Kipchoge”
 
 
