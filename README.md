@@ -38,7 +38,7 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
 </p>
 
 <p align="center">
-  <img src="./github-metrics.svg" width="96%" />
+  <img src="./github-metrics.svg" width="80%" />
 </p>
 
 ---
