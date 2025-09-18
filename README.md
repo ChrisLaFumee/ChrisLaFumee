@@ -31,12 +31,22 @@ I specialize in crafting sleek, responsive web apps using modern JavaScript stac
 
 ---
 
-### 📈 GitHub Stats
+### 📈 GitHub Stats (Auto-updated)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChrisLaFumee&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChrisLaFumee&theme=radical" width="48%" />
+  <img src="./github-metrics.svg" width="96%" />
 </p>
+
+<details>
+  <summary><b>100 Days of Commits — Checklist</b></summary>
+
+- [ ] Day 001
+- [ ] Day 002
+- [ ] Day 003
+- ...
+- [ ] Day 100
+
+</details>
 
 ---
 
