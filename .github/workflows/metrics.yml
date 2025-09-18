@@ -2,12 +2,11 @@ name: Generate profile metrics
 
 on:
   schedule:
-    - cron: "17 5,17 * * *"   # runs ~2x/day (05:17 & 17:17 UTC)
+    - cron: "17 5,17 * * *"
   workflow_dispatch: {}
   push:
     branches: [ main ]
 
-# allow this workflow to push the generated SVG to the repo
 permissions:
   contents: write
 
@@ -20,32 +19,28 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          # Auth to read your profile data
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Commit the generated SVG back to your repo
           output_action: commit
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           filename: github-metrics.svg
 
-          # Basic config
           user: ChrisLaFumee
           template: classic
           config_timezone: America/New_York
-
-          # Don't fail the whole build if a plugin hiccups
           plugins_errors_fatal: no
 
           # Core sections
           base: header, activity, repositories, metadata
 
-          # 100-Day visibility
+          # Daily streak visibility
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+
+          # Punch-card style (hour/day cadence)
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
 
           # Tech profile
           plugin_languages: yes
