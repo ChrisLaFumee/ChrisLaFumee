@@ -35,6 +35,8 @@ A full-stack coding challenge platform designed to deliver daily, progressive pr
 - 🎯 [**The Limitless Hub**](https://github.com/ChrisLaFumee/limitless-hub): Full-stack coaching & digital product platform for health and fitness pros  
 - 🧰 [**Chris Cross Coding Portfolio**](https://github.com/ChrisLaFumee/My-Portfolio): My personal portfolio, resume, and project showcase
 
+  ---
+
 ## 🛠️ Proficient Tech Stack
 
 <table>
