@@ -22,7 +22,7 @@ A full-stack coding challenge platform designed to deliver daily, progressive pr
 - Challenge filtering by difficulty
 - Product thinking and scalability
 
-**Tech:** Node.js, Express, React, Vite, JavaScript  
+**Tech:** Node.js, Express, React, Vite, JavaScript, TypeScript  
 **Status:** Actively in development  
 
 ---
