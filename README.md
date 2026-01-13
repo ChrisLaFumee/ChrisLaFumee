@@ -12,8 +12,8 @@ Before transitioning into software engineering, I spent over a decade running my
 
 Currently building real-world projects that combine strong UI/UX with thoughtful backend architecture.
 
+---
 ## 🚀 Current Project
-
 ### 🧠 Skills Gym  
 A full-stack coding challenge platform designed to deliver daily, progressive programming challenges through a custom API and interactive frontend.
 
