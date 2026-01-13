@@ -31,6 +31,7 @@ A full-stack coding challenge platform designed to deliver daily, progressive pr
 
 **Core**
 - JavaScript (ES6+)
+- TypeScript
 - Node.js, Express
 - React, Vite
 - REST APIs
