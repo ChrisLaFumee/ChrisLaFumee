@@ -8,6 +8,8 @@
 Full-Stack Software Engineer with a frontend focus, building practical, user-driven applications using React and Node.js.  
 I enjoy turning ideas into clean interfaces backed by solid APIs and scalable logic.
 
+Before transitioning into software engineering, I spent over a decade running my own health and wellness business, developing strong problem-solving, leadership, and client-focused product thinking.
+
 Currently building real-world projects that combine strong UI/UX with thoughtful backend architecture.
 
 ## 🚀 Current Project
