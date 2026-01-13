@@ -1,5 +1,5 @@
 <h1 align="center">Hey, I'm Christopher LaFumee 👋</h1>
-<h3 align="center">Full-Stack Software Engineer • Front-End Focused w/ Back-End Skillset • Owner and Founder of Limitless Progressions</h3>
+<h3 align="center">Full-Stack Software Engineer • Front-End Focused • Back-End Skillset </h3>
 
 ---
 
