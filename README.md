@@ -1,18 +1,56 @@
 <h1 align="center">Hey, I'm Christopher LaFumee 👋</h1>
-<h3 align="center">Full-Stack Developer • Fitness Educator • Builder of Limitless Tools</h3>
+<h3 align="center">Full-Stack Software Engineer • Fitness Educator • Builder of Limitless Tools</h3>
 
 ---
 
 ### 🚀 About Me
 
-I’m a software engineer with over a decade of experience in health, fitness, and coaching — now building digital products that elevate both human performance and tech accessibility.
+Full-Stack Software Engineer with a frontend focus, building practical, user-driven applications using React and Node.js.  
+I enjoy turning ideas into clean interfaces backed by solid APIs and scalable logic.
 
-I specialize in crafting sleek, responsive web apps using modern JavaScript stacks and design-first principles. My work blends clean code, engaging UI, and the kind of discipline forged through years of coaching others.
+Currently building real-world projects that combine strong UI/UX with thoughtful backend architecture.
 
-- 🧠 Currently mastering **backend engineering** (Node.js, Express, MongoDB)
-- 🛠️ Building: [**The Limitless Hub**](https://github.com/ChrisLaFumee/limitless-hub) — my flagship fitness + coaching platform
-- 💼 Actively seeking **remote front-end/full-stack roles**
-- 🎯 Next goals: Master TypeScript + dive deeper into DevOps & deployment strategies
+## 🚀 Current Project
+
+### 🧠 Skills Gym  
+A full-stack coding challenge platform designed to deliver daily, progressive programming challenges through a custom API and interactive frontend.
+
+**What it demonstrates:**
+- REST API design and routing
+- Data validation and error handling
+- Frontend consumption of backend services
+- Challenge filtering by difficulty
+- Product thinking and scalability
+
+**Tech:** Node.js, Express, React, Vite, JavaScript  
+**Status:** Actively in development  
+
+---
+
+## 🛠️ Tech Stack
+
+**Core**
+- JavaScript (ES6+)
+- Node.js, Express
+- React, Vite
+- REST APIs
+
+**Frontend**
+- HTML, CSS
+- Tailwind CSS
+- Responsive design
+- Component-based UI architecture
+
+**Backend**
+- API routing & controllers
+- Middleware & error handling
+- Data modeling & validation
+- Logging & debugging
+
+**Tools**
+- Git & GitHub
+- Postman / curl
+- VS Code
 
 ---
 
