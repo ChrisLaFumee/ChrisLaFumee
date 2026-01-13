@@ -31,29 +31,47 @@ A full-stack coding challenge platform designed to deliver daily, progressive pr
 
 ## 🛠️ Tech Stack
 
-**Core**
-- JavaScript (ES6+)
-- TypeScript
-- Node.js, Express
-- React, Vite
-- REST APIs
+<table>
+  <tr>
+    <td valign="top">
+      <strong>Core</strong>
+      <ul>
+        <li>JavaScript (ES6+)</li>
+        <li>TypeScript</li>
+        <li>Node.js, Express</li>
+        <li>React, Vite</li>
+        <li>REST APIs</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <strong>Frontend</strong>
+      <ul>
+        <li>HTML, CSS</li>
+        <li>Tailwind CSS</li>
+        <li>Responsive design</li>
+        <li>Component-based UI</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <strong>Backend</strong>
+      <ul>
+        <li>API routing & controllers</li>
+        <li>Middleware & error handling</li>
+        <li>Data modeling & validation</li>
+        <li>Logging & debugging</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <strong>Tools</strong>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>Postman / curl</li>
+        <li>VS Code</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-**Frontend**
-- HTML, CSS
-- Tailwind CSS
-- Responsive design
-- Component-based UI architecture
-
-**Backend**
-- API routing & controllers
-- Middleware & error handling
-- Data modeling & validation
-- Logging & debugging
-
-**Tools**
-- Git & GitHub
-- Postman / curl
-- VS Code
 <p>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
