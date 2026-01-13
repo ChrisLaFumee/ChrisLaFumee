@@ -29,7 +29,7 @@ A full-stack coding challenge platform designed to deliver daily, progressive pr
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Proficient Tech Stack
 
 <table>
   <tr>
