@@ -124,6 +124,4 @@ A full-stack coding challenge platform designed to deliver daily, progressive pr
 
 ---
 
-> 💬 “No Human is Limited - Kipchoge”
-
 
