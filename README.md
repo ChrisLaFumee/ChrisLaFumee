@@ -1,5 +1,5 @@
-<h1 align="center">Hey, I'm Christopher LaFumee 👋</h1>
-<h3 align="center">Full-Stack Software Engineer • Front-End Focused • Back-End Skillset </h3>
+<h1 align="center">Hi there, I'm Chris LaFumee 👋</h1>
+<h3 align="center">Full-Stack Software Engineer • TripleTen Grad • Small Business Owner </h3>
 
 ---
 
@@ -121,13 +121,6 @@ A full-stack coding challenge platform designed to deliver daily, progressive pr
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
-
----
-
-### 📌 Featured Projects
-
-- 🎯 [**The Limitless Hub**](https://github.com/ChrisLaFumee/limitless-hub): Full-stack coaching & digital product platform for health and fitness pros  
-- 🧰 [**Chris Cross Coding Portfolio**](https://github.com/ChrisLaFumee/My-Portfolio): My personal portfolio, resume, and project showcase
 
 ---
 
