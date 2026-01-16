@@ -124,4 +124,4 @@ A full-stack coding challenge platform designed to deliver daily, progressive pr
 
 ---
 
-YOU ARE LIMITLESS
+♾️ YOU ARE LIMITLESS ♾️
